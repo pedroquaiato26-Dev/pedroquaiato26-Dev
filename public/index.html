@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style/dashboard.css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <title>Dashboards Sales</title>
+</head>
+<body>
+    <header id="hearder">
+        <h6>Dashboard Comercial</h6>
+    </header>
+
+    <div class="Charts-Collum-One">
+        <div class="chart-line" id="chart-line"></div><br>
+        <div class="chart-pie" id="chart-pie"></div>
+    </div>
+
+    <div class="dataKPI">
+        <div class="Box-KPI-vendas">
+            <h3>Recorrencia</h3>
+            <p id="vendas"></p>
+        </div>
+        
+        <div class="Box-KPI-numclientes">
+            <h3>Variação</h3>
+            <p id="numClientes"></p>    
+        </div>
+        
+        <div class="Box-KPI-ativacoes">
+            <h3>Ativações</h3>
+            <p id="ativacoes"></p>    
+        </div>
+        
+        <div class="Box-KPI-cancelamentos">
+            <h3>Cancelamentos</h3>
+            <p id="cancelamento"></p>    
+        </div>
+        
+        <div class="Box-KPI-saldo">
+            <h3>Saldo</h3>
+            <p id="saldo"></p>    
+        </div>
+    </div>
+
+    <div class="Charts-Collum-Two">
+        <div class="chart-pie-one" id="chart-pie-one"></div><br>
+        <div class="chart-pie-two" id="chart-pie-two"></div><br>
+        <div class="chart-pie-two" id="chart-pie-tree"></div>
+    </div>
+
+    <div class="Charts-Collum-Tree">
+        <div class="chart-area" id="chart-area"></div><br>
+        <div class="chart-bars" id="chart-bar"></div>
+    </div>
+    
+</body>
+
+<script type="module" src="/src/Chart.js"></script>
+
+</html>

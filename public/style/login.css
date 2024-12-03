@@ -1,0 +1,77 @@
+html, body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ContainerForms {
+    background-color: #001f54;
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.loginForms label {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.loginForms input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.loginForms input:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+.loginForms button {
+    background-color: white;
+    color: #001f54;
+    border: 1px solid #001f54;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.loginForms button:hover {
+    background-color: #034078;
+    color: white;
+}
+
+.mensagem {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
